@@ -1,6 +1,7 @@
 # How to install and use Clip Studio Paint on Linux (using Bottles)
 
 <a href="#the-tldr-guide">I know my way around Linux, take me to the TL;DR</a>
+
 For everyone just getting started with Linux, this guide is for you. CSP version 1.13.2 will work pretty much flawlessly using this method, for later versions your mileage may vary.
 
 
