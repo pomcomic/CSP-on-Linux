@@ -42,7 +42,7 @@ If this command returns a file path, congratulations, Flatpak is up and running,
 `sudo pacman -S flatpak`
 
 
-Once you have installed Flatpak (or confirmed it’s already in place), we can head to our desktop environment’s “App Store” and search for an application called “Bottles” as well as “Flatseal”. The latter will only come into play if you intend to keep your CSP files on a secondary drive, so we’ll come back to Flatseal later.
+Once you have installed Flatpak (or confirmed it’s already in place), we can head to our desktop environment’s “App Store” and search for an application called “Bottles” as well as “Flatseal”. The latter will only come into play if you intend to keep your CSP files on a secondary drive, so we’ll come back to Flatseal later. <a href="https://blog.slonk.ing/posts/linux-security#flatpak">If you cannot find Bottles in your app store, make sure to add "flathub" and "flathub-beta" repositories.</a> 
 
 You’ll also want to download the Windows installation package of Clip Studio Paint from <a href="https://www.clipstudio.net/en/dl/">their website</a> and have your login credentials or serial number ready for later.
 
