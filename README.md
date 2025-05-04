@@ -1,5 +1,9 @@
 # How to install and use Clip Studio Paint on Linux (using Bottles)
 
+<a href="#the-tldr-guide">I know my way around Linux, take me to the TL;DR</a>
+For everyone just getting started with Linux, this guide is for you. CSP version 1.13.2 will work pretty much flawlessly using this method, for later versions your mileage may vary.
+
+
 ## Preamble
 
 More and more people are growing tired of Microsoft’s approach to Windows and the additions to the aforementioned operating system. Whatever may have broken the camel’s back – in my case it was Recall, a „feature“ that takes screenshots of everything you do every couple seconds – you, the person reading this, are looking for an alternative to Windows. Chances are you’ve already done some research and landed on Linux as a replacement. Whichever distro you may choose, you’re probably also painfully aware that some applications you like using do not have a native Linux port. If you are an artist relying on Clip Studio Paint, you’re probably hesitant to make the switch, as Celsys does not offer a Linux version of their software. While this may be annoying, there are ways to make Clip Studio Paint work on any Linux distribution, one of which I’ve personally found very reliable, easy to set up and, most importantly, stable. In this guide I will walk you through the steps of setting up your copy of Clip Studio Paint on any Linux distribution.
