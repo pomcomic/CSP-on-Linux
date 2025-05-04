@@ -51,27 +51,69 @@ Once all that is out of the way, open the application Bottles.
 
 ## Setting up Bottles
 
-Once inside Bottles, you’re greeted with a short tour. Skip through it. Click on the three dots in the upper right corner and head to **Preferences**. Click on **Runners**, open the section called **Caffe** and download **caffe-9.2**. Wait for the download to finish, then close the settings menu and click on the plus sign in the upper left corner of Bottles. We’ll now create a new Bottle. Think of a Bottle as a mini installation of Windows. Don’t worry, we won’t have to deal with Microsoft’s shenanigans, the Windows instance is very minimal and will only affect the programs we run within it.
+Once inside Bottles, you’re greeted with a short tour. Skip through it. Click on the three dots in the upper right corner and head to **Preferences**. Click on **Runners**, open the section called **Caffe** and download **caffe-9.2**. Wait for the download to finish, then close the settings menu and click on the plus sign in the upper left corner of Bottles.
 
+<img src="./images/01-bottles-menu-location.png" />
+
+<img src="./images/02-bottles-menu-runners.png" />
+
+
+We’ll now create a new Bottle. Think of a Bottle as a mini installation of Windows. Don’t worry, we won’t have to deal with Microsoft’s shenanigans, the Windows instance is very minimal and will only affect the programs we run within it.
 Give your Bottle a catchy name such as “Clip Studio” so you’ll remember what’s in it. Then, select **Custom** and for our runner, we’ll select our previously downloaded **caffe-9.2** in the dropdown menu. Click on **Create** and wait for the Bottle to be created. Click close once it’s done, then click on the Bottle you just created.
 
-In the next menu, we’ll have to apply a few settings and download some dependencies. First, click on **Settings**, then scroll down to the section **Compatability** and select **Windows 8.1** in the **Windows version** dropdown menu. Everything else can stay the way it is, so let’s go back to the previous screen. Now, just underneath Settings, we’ll click on **Dependencies**. In that list, you’ll want to download the following:
+<img src="./images/03-create-new-bottle.png" />
+
+<img src="./images/04-csp-bottle.png" />
+
+
+In the next menu, we’ll have to apply a few settings and download some dependencies. First, click on **Settings**, then scroll down to the section **Compatability** and select **Windows 8.1** in the **Windows version** dropdown menu. Everything else can stay the way it is, so let’s go back to the previous screen.
+
+<img src="./images/05-bottles-settings-location.png" />
+
+<img src="./images/06-bottles-settings-winver.png" />
+
+
+Now, just underneath Settings, we’ll click on **Dependencies**. In that list, you’ll want to download the following:
 
 - allfonts
 - gecko
 - mono
 - vcredist2022
 
+<img src="./images/07-bottles-dependencies.png" />
+
+
 Now we’re ready to install Clip Studio. We’re almost there!
 
 
 ## Installing Clip Studio Paint
 
-Time for the main event. Click on **Run Executable** and select the **Clip Studio installer file** that you downloaded earlier. The installation popup should appear just as it would on Windows. Click through the setup as you normally would (**don’t change the install directory**) and wait for it to finish. Close the window once it’s done installing. You should notice that there is now a new entry in the Bottles menu called “**CLIPStudio**”. Click on the **play button** next to it to launch the CSP launcher. If you already have a license, you should be able to activate it within the launcher, BUT launching CSP itself through this launcher will unfortunately not work. However, there is an easy workaround for that.
+Time for the main event. Click on **Run Executable** and select the **Clip Studio installer file** that you downloaded earlier. The installation popup should appear just as it would on Windows. Click through the setup as you normally would (**don’t change the install directory**) and wait for it to finish. Close the window once it’s done installing.
 
-Close out of the launcher again and click on **Add Shortcuts** just below the launcher entry. A file manager window should pop up. Now, navigate the folders as such: *drive_c > Program Files > CELSYS > CLIP STUDIO 1.5 (or whatever the case may be for you) > CLIP STUDIO PAINT*. In that folder, select “**CLIPStudioPaint.exe**” and hit “**Add**”. You now have a direct shortcut to Clip Studio Paint in your Bottles menu. Click on the Play button next to it, and …. we’re in! Go ahead and test all of its functionality, but we should be done for the most part now. If you want easier access to Clip Studio, you can also add a shortcut to your application launcher/start menu by clicking on the three dots next to the play button and select “**Create Desktop Shortcut**”. And there you go. Clip Studio is now running on Linux!
+<img src="./images/08-run-executable.png" />
+
+<img src="./images/09-select-executable.png" />
+
+<img src="./images/10-install-csp.png" />
+
+
+You should notice that there is now a new entry in the Bottles menu called “**CLIPStudio**”. Click on the **play button** next to it to launch the CSP launcher. If you already have a license, you should be able to activate it within the launcher, BUT launching CSP itself through this launcher will unfortunately not work. However, there is an easy workaround for that.
+
+Close out of the launcher again and click on **Add Shortcuts** just below the launcher entry. A file manager window should pop up. Now, navigate the folders as such: *drive_c > Program Files > CELSYS > CLIP STUDIO 1.5 (or whatever the case may be for you) > CLIP STUDIO PAINT*. In that folder, select “**CLIPStudioPaint.exe**” and hit “**Add**”.
+
+<img src="./images/11-add-shortcut.png" />
+
+<img src="./images/12-shortcut.png" />
+
+
+ou now have a direct shortcut to Clip Studio Paint in your Bottles menu. Click on the Play button next to it, and …. we’re in! Go ahead and test all of its functionality, but we should be done for the most part now. If you want easier access to Clip Studio, you can also add a shortcut to your application launcher/start menu by clicking on the three dots next to the play button and select “**Create Desktop Shortcut**”. And there you go. Clip Studio is now running on Linux!
+
+<img src="./images/13-start-csp.png" />
+
 
 One last thing: **In case your tablet’s pressure isn’t working**, in Clip Studio Paint, head to **File > Preferences** and under **Tablet**, enable the checkbox “**Use mouse mode in tablet driver settings**”. After that, your tablet should work just fine.
+
+<img src="./images/14-pressure-fix.png" />
 
 
 ## A note on Flatseal
