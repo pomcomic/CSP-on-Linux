@@ -106,7 +106,7 @@ Close out of the launcher again and click on **Add Shortcuts** just below the la
 <img src="./images/12-shortcut.png" />
 
 
-ou now have a direct shortcut to Clip Studio Paint in your Bottles menu. Click on the Play button next to it, and …. we’re in! Go ahead and test all of its functionality, but we should be done for the most part now. If you want easier access to Clip Studio, you can also add a shortcut to your application launcher/start menu by clicking on the three dots next to the play button and select “**Create Desktop Shortcut**”. And there you go. Clip Studio is now running on Linux!
+You now have a direct shortcut to Clip Studio Paint in your Bottles menu. Click on the Play button next to it, and …. we’re in! Go ahead and test all of its functionality, but we should be done for the most part now. If you want easier access to Clip Studio, you can also add a shortcut to your Desktop environment's application launcher/start menu by clicking on the three dots next to the play button and select “**Create Desktop Shortcut**”. And there you go. Clip Studio is now running on Linux!
 
 <img src="./images/13-start-csp.png" />
 
